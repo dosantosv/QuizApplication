@@ -8,20 +8,20 @@ import com.example.quizapplication.databinding.ActivityStartBinding
 
 class StartActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityStartBinding
+    private lateinit var _binding: ActivityStartBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityStartBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        _binding = ActivityStartBinding.inflate(layoutInflater)
+        setContentView(_binding.root)
 
-        binding.btnEnter.setOnClickListener { enter() }
+        _binding.btnEnter.setOnClickListener { enter() }
     }
 
     private fun enter() : Boolean {
-        if (binding.textName.text != null || binding.textName.text != "") {
-            val username : String = binding.textName.text.toString()
+        if (_binding.textName.text != null || _binding.textName.text != "") {
+            val username : String = _binding.textName.text.toString()
             val user = User(username)
             val intent =
             return true
