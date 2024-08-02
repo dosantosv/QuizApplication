@@ -54,19 +54,19 @@
             android:text="reponse 1"  />
 
         <RadioButton
-            android:id="@+id/checkbox_response2"
+            android:id="@+id/radiobtn_response2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="reponse 2"  />
 
         <RadioButton
-            android:id="@+id/checkbox_response3"
+            android:id="@+id/radiobtn_response3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="reponse 3"  />
 
         <RadioButton
-            android:id="@+id/checkbox_response4"
+            android:id="@+id/radiobtn_response4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="reponse 4"  />

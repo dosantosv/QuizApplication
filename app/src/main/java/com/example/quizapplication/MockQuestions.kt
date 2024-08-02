@@ -4,13 +4,14 @@ class MockQuestions {
 
     companion object {
         val questionOne = "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?"
-        val reponseOne = mutableMapOf("Tem entre 4 a 6 litros. São retirados 450 mililitros"
+        val responseOne = mutableMapOf("Tem entre 4 a 6 litros. São retirados 450 mililitros"
                 to listOf(
             "Tem entre 2 a 4 litros. São retirados 450 mililitros",
             "Tem entre 4 a 6 litros. São retirados 450 mililitros",
             "Tem 10 litros. São retirados 2 litros",
-            "Tem 7 litros. São retirados 1,5 litros",
-            "Tem 0,5 litros. São retirados 0,5 litros"))
+            "Tem 7 litros. São retirados 1,5 litros"
+                )
+        )
 
         val questionTwo = "De quem é a famosa frase “Penso, logo existo”?"
         val responseTwo = mutableMapOf("Descartes"
@@ -19,7 +20,6 @@ class MockQuestions {
                     "Galileu Galilei",
                     "João Cleber",
                     "Descartes",
-                    "Bob Esponja"
                 )
         )
 
@@ -29,7 +29,6 @@ class MockQuestions {
                     "Alemanha",
                     "Itatinga",
                     "Italia",
-                    "Australia",
                     "Brasil"
                 )
         )
@@ -40,8 +39,7 @@ class MockQuestions {
                 "Vaticano e Rússia",
                 "Itatiba e Brasil",
                 "Mônaco e Canadá",
-                "Malta e Estados Unidos",
-                "São Marino e Índia"
+                "Malta e Estados Unidos"
             )
         )
     }
